@@ -7,7 +7,7 @@ if(process.env.NODE_ENV === 'development') {
 }
 
 if(process.env.NODE_ENV === 'production') {
-  url = 'https://omnistack-be-the-hero.herokuapp.com'
+  url = 'https://be-the-hero-api-lucas.herokuapp.com/'
 }
 
 const api = axios.create({
